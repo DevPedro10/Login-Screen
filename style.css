@@ -1,0 +1,48 @@
+body {
+    background-color: #0b1017;
+    color: white; 
+    font-family: sans-serif;
+}
+
+main h1{
+    color: white;
+    
+    text-transform: uppercase;
+}
+
+main {
+    height: 500px;
+    width: 500px;
+    background-color: #263851;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+input[type="text"] {
+    background-color: initial;
+    display: flex;
+    border: 1px solid black;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 10px ;
+    transition: .5s;
+}
+
+
+
+input[type="text"]:focus {
+    padding: 10px 25px;
+}
+
+label h3 {
+    position: relative;
+    top: 28px;
+    left: 34.5%;
+    background-color: #263851;
+    max-width: max-content;
+    padding: 0 8px;
+    font-size: 0.8em;
+}
